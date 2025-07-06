@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 94.5%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  padding: 10px 40px;
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-list a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+#logo {
+  margin: 0;
+  flex-shrink: 0;
+  opacity: 0.2;
+  height: 40px;
+}
+
+main{
+    justify-content: center;
+}
+
+.first{
+    background-image: url('../img/img-mission-background.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 40px;
+    width: calc(100% - 80px);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.first-text {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+#tea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  margin-top: 100px;
+}
+.tea-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.tea-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.tea-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.tea-item img:hover {
+  transform: scale(1.05);
+}
+
+.tea-item h4 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: seashell;
+  font-weight: normal;
+}
+
+#loc{
+  text-align: center;
+}
+.location-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px auto;
+}
+
+.location-container {
+  background-color: black;
+  color: seashell;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  padding: 40px;
+  opacity: 0.9;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid seashell;
+  margin-top: 60px;
+}
+
+footer p:last-child {
+  text-align: left;
+  padding-left: 20px;
+  font-size:19px;
+  opacity: 0.5;
+}
