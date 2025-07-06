@@ -1,172 +1,175 @@
-# 🍵 Tea Cozy
-
-Um website elegante e responsivo para uma cafeteria especializada em chás artesanais, desenvolvido como parte do projeto da Codecademy.
-
+# 🍵 Tea Cozy – Um Site Aconchegante para Amantes de Chá
 ![Tea Cozy](img/img-tea-cozy-logo.png)
+
+Um site elegante e responsivo para uma cafeteria fictícia especializada em chás artesanais, desenvolvido como parte do curso de Desenvolvimento Web da Codecademy.
+
+---
 
 ## 📋 Descrição
 
-O Tea Cozy é um website moderno que apresenta uma cafeteria fictícia especializada em chás orgânicos e artesanais. O projeto demonstra habilidades fundamentais de desenvolvimento web frontend, incluindo HTML semântico, CSS responsivo e design visual atrativo.
+O **Tea Cozy** é um projeto de frontend que simula um site moderno e visualmente atrativo para uma cafeteria. O foco está na apresentação de produtos, design responsivo, acessibilidade e uso eficaz de HTML5 e CSS3.
+
+---
 
 ## ✨ Funcionalidades
 
-- 🏠 **Página inicial completa** com navegação intuitiva
-- 🎯 **Seção Mission** com imagem de fundo atrativa
-- 🍃 **Galeria de chás** com títulos descritivos e efeitos hover
-- 📍 **Seção de localizações** com três endereços
-- 📱 **Design responsivo** adaptável a diferentes dispositivos
-- 🎨 **Animações CSS** suaves e transições elegantes
-- ♿ **Acessibilidade** com textos alternativos e estrutura semântica
+- 🏠 Página inicial com navegação fixa e intuitiva  
+- 🎯 Seção “Nossa Missão” com imagem de fundo impactante  
+- 🍃 Galeria de chás do mês com efeitos visuais  
+- 📍 Seção de localizações com 3 endereços detalhados  
+- 📱 Layout 100% responsivo para desktop, tablet e mobile  
+- 🎨 Animações CSS suaves e transições elegantes  
+- ♿ Estrutura semântica e acessibilidade com textos alternativos  
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5** - Estrutura semântica e marcação
-- **CSS3** - Estilização, layout flexbox, animações
-- **Responsive Design** - Media queries e layout adaptativo
-- **Google Fonts** - Tipografia moderna
-- **Flexbox** - Layout responsivo e alinhamento
+- **HTML5** – Estrutura semântica  
+- **CSS3** – Estilização, Flexbox e animações  
+- **Design Responsivo** – Media queries e layout adaptativo  
+- **Google Fonts** – Tipografia moderna  
+- **Flexbox** – Alinhamento e organização do layout  
+
+---
 
 ## 📁 Estrutura do Projeto
+
 tea-cozy/
-├── 📄 index.html              # Página principal
-├── 📄 README.md               # Documentação do projeto
-├── 📄 analise_projeto_tea_cozy.txt # Análise técnica detalhada
-├── 📁 assets/
-│   └── 📄 index.css           # Estilos CSS principais
-└── 📁 img/                    # Imagens do projeto
-    ├── 🖼️ img-bedford-bizarre.jpg
-    ├── 🖼️ img-berryblitz.jpg
-    ├── 🖼️ img-donut.jpg
-    ├── 🖼️ img-locations-background.jpg
-    ├── 🖼️ img-mission-background.jpg
-    ├── 🖼️ img-myrtle-ave.jpg
-    ├── 🖼️ img-spiced-rum.jpg
-    └── 🖼️ img-tea-cozy-logo.png
+├── index.html # Página principal
+├── README.md # Documentação
+├── analise_projeto_tea_cozy.txt # Análise técnica
+├── assets/
+│ ├── index.css # Estilos principais
+│ └── img/ # Imagens
+│ ├── img-bedford-bizarre.jpg
+│ ├── img-berryblitz.jpg
+│ ├── img-donut.jpg
+│ ├── img-locations-background.jpg
+│ ├── img-mission-background.jpg
+│ ├── img-myrtle-ave.jpg
+│ ├── img-spiced-rum.jpg
+│ └── img-tea-cozy-logo.png
+
+---
 
 ## 🚀 Como Executar
 
-1. **Clone ou baixe o repositório**
-   - git clone https://github.com/seu-usuario/tea-cozy.git
-2. Navegue até o diretório
-    cd tea-cozy
-3. Abra o arquivo index.html
-•  Duplo clique no arquivo index.html
-•  Ou abra no seu navegador preferido
-•  Ou use um servidor local como Live Server (VS Code)
+1. Clone o repositório:
+- git clone https://github.com/seu-usuario/tea-cozy.git
+- cd tea-cozy
 
-🎨 Seções do Website
+2. Abra o arquivo `index.html`:
+- Clique duplo no arquivo  
+- Ou use o Live Server (VS Code)  
+- Ou arraste para o navegador
 
-🏠 Header/Navegação
-•  Logo da Tea Cozy
-•  Menu de navegação fixo
-•  Links para seções da página
+---
 
-🎯 Our Mission
-•  Imagem de fundo atrativa
-•  Texto sobre a missão da empresa
-•  Design centralizado e impactante
+## 🖼️ Seções do Site
 
-🍃 Tea of the Month
-•  Galeria de 5 chás especiais
-•  Títulos descritivos para cada chá
-•  Efeitos hover interativos
-•  Layout em duas fileiras
+### 🏠 Header / Navegação
+- Logo da Tea Cozy  
+- Menu com navegação fixa  
+- Links âncora para as seções da página  
 
-📍 Locations
-•  Três localizações da cafeteria
-•  Endereços completos
-•  Design em cards organizados
+### 🎯 Nossa Missão
+- Imagem de fundo atrativa  
+- Texto descritivo centralizado sobre os valores da marca  
 
-📞 Footer
-•  Informações de contato
-•  Email e telefone
-•  Copyright da empresa
+### 🍃 Chá do Mês
+- Galeria com 5 chás especiais  
+- Títulos e descrições  
+- Efeitos `hover` nas imagens  
+- Layout em duas fileiras responsivas  
 
-🎭 Características Visuais
+### 📍 Localizações
+- Três unidades da cafeteria  
+- Endereços completos  
+- Layout em cartões com design moderno  
 
-•  Paleta de cores: Preto, branco gelo (seashell) e tons dourados
-•  Tipografia: Arial/Helvetica para legibilidade
-•  Efeitos: Hover, transições suaves, sombras
-•  Layout: Flexbox para organização responsiva
-•  Imagens: Otimizadas com object-fit e border-radius
+### 📞 Rodapé
+- Email de contato  
+- Número de telefone  
+- Direitos autorais  
 
-📱 Responsividade
+---
 
-O website foi desenvolvido com foco em responsividade:
-•  Layout adaptável para desktop, tablet e mobile
-•  Imagens responsivas com object-fit
-•  Flexbox para reorganização automática
-•  Meta viewport configurado
+## 🎨 Características Visuais
 
-🔧 Melhorias Implementadas
+- **Paleta de cores:** Preto, tons de gelo e dourado suave  
+- **Tipografia:** Arial / Helvetica  
+- **Layout:** Flexbox com alinhamento preciso  
+- **Imagens:** Otimizadas com `object-fit`, sombras e bordas suaves  
+- **Efeitos:** Transições e `hover` elegantes para interatividade  
 
-Comparado à versão original, foram adicionadas:
-•  ✅ Navegação funcional com menu fixo
-•  ✅ Títulos nas imagens dos chás
-•  ✅ Efeitos hover e animações
-•  ✅ CSS para todas as seções
-•  ✅ Estrutura semântica melhorada
-•  ✅ Correção de bugs e erros de ortografia
-•  ✅ Otimização da estrutura de arquivos
+---
 
-🐛 Problemas Conhecidos
+## 📱 Responsividade
 
-•  Imagem img-bedford-bizarre.jpg muito grande (10MB) - recomenda-se otimização
-•  Algumas seções podem precisar de ajustes em telas muito pequenas
-•  Falta implementação de JavaScript para funcionalidades avançadas
+- Layout adaptável a **mobile, tablet e desktop**  
+- Uso de **media queries** para diferentes breakpoints  
+- Navegação fácil mesmo em telas pequenas  
 
-🚧 Próximas Melhorias
+---
 
-Otimização de imagens (WebP, compressão)
-Implementação de formulário de contato
-Adição de JavaScript para interatividade
-Sistema de avaliações dos chás
-Integração com mapas nas localizações
-Implementação de carrinho de compras
-Modo escuro/claro
-Animações mais avançadas
+## ✅ Melhorias Implementadas
 
-🎓 Aprendizados
+- Navegação funcional com menu fixo  
+- Títulos e efeitos nas imagens dos chás  
+- Estilização completa da seção de localizações  
+- Uso correto de `Flexbox`  
+- Estrutura HTML semântica  
+- Correções ortográficas e visuais  
+- Organização limpa dos arquivos e pastas  
 
-Este projeto demonstra competências em:
-•  Estruturação semântica de HTML
-•  Estilização avançada com CSS
-•  Layout responsivo com Flexbox
-•  Organização de arquivos e assets
-•  Debugging e otimização de código
-•  Design de interface de usuário
-•  Experiência do usuário (UX)
+---
 
-📝 Licença
+## 🐛 Problemas Conhecidos
 
-Este projeto foi desenvolvido para fins educacionais como parte do currículo da Codecademy.
+- A imagem `img-bedford-bizarre.jpg` tem 10MB → **deve ser otimizada**  
+- Layout pode exigir ajustes em telas extremamente pequenas  
+- Falta de JavaScript para interatividade avançada  
 
-👨‍💻 Autor
+---
 
-Desenvolvido durante o curso de Desenvolvimento Web da Codecademy.
+## 🚧 Próximas Melhorias
 
+- Conversão de imagens para WebP  
+- Formulário de contato funcional  
+- Scroll suave e animações mais elaboradas  
+- Sistema de avaliações e carrinho de compras  
+- Modo escuro/claro  
+- Integração com APIs de mapas  
 
+---
 
-📸 Preview
+## 🎓 Aprendizados
 
-Desktop
-•  Layout completo com navegação fixa
-•  Galeria de chás em duas fileiras
-•  Seções bem organizadas e estilizadas
+- Estruturação semântica com HTML  
+- Layouts responsivos com Flexbox  
+- Estilização refinada com CSS  
+- Organização e modularização de arquivos  
+- Depuração e testes visuais  
+- Acessibilidade e UX em sites modernos  
 
-Mobile
-•  Layout adaptativo para telas pequenas
-•  Navegação otimizada para touch
-•  Imagens redimensionadas adequadamente
+---
 
+## 📞 Contato
 
+- **Email:** contact@theteacozy.com  
+- **Telefone:** 917-555-8904  
+- **Endereços:** Três unidades em Portland, Maine (detalhes no site)  
 
-🍵 Visite nosso Tea Cozy e desfrute da melhor experiência em chás artesanais!
+---
 
-📞 Contato
+## 📝 Licença
 
-•  Email: contact@theteacozy.com
-•  Telefone: 917-555-8904
-•  Endereços: Confira nossas três localizações em Portland, Maine
+Este projeto foi desenvolvido **para fins educacionais** como parte do currículo da Codecademy.
 
-Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea ☘️
+---
+
+## ✨ Experiência Artesanal
+
+> Selecionado à mão, curado artesanalmente, sustentável, pequenos lotes, comércio justo, chá orgânico.  
+> **Aprecie o Tea Cozy — mais do que chá, uma experiência.**
