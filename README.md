@@ -35,21 +35,24 @@ O **Tea Cozy** é um projeto de frontend que simula um site moderno e visualment
 
 ## 📁 Estrutura do Projeto
 
-tea-cozy/
-├── index.html # Página principal
-├── README.md # Documentação
-├── analise_projeto_tea_cozy.txt # Análise técnica
-├── assets/
-│ ├── index.css # Estilos principais
-│ └── img/ # Imagens
-│ ├── img-bedford-bizarre.jpg
-│ ├── img-berryblitz.jpg
-│ ├── img-donut.jpg
-│ ├── img-locations-background.jpg
-│ ├── img-mission-background.jpg
-│ ├── img-myrtle-ave.jpg
-│ ├── img-spiced-rum.jpg
-│ └── img-tea-cozy-logo.png
+### 📁 Estrutura do Projeto
+
+- `tea-cozy/`
+  - `index.html` – Página principal
+  - `README.md` – Documentação do projeto
+  - `analise_projeto_tea_cozy.txt` – Análise técnica detalhada
+  - `assets/`
+    - `index.css` – Estilos CSS principais
+    - `img/`
+      - `img-bedford-bizarre.jpg`
+      - `img-berryblitz.jpg`
+      - `img-donut.jpg`
+      - `img-locations-background.jpg`
+      - `img-mission-background.jpg`
+      - `img-myrtle-ave.jpg`
+      - `img-spiced-rum.jpg`
+      - `img-tea-cozy-logo.png`
+
 
 ---
 
